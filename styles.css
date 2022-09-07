@@ -1,0 +1,276 @@
+html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,footer,header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}figcaption,figure,main{display:block}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}pre{font-family:monospace,monospace;font-size:1em}a{background-color:transparent;-webkit-text-decoration-skip:objects}abbr[title]{border-bottom:none;text-decoration:underline;text-decoration:underline dotted}b,strong{font-weight:inherit}b,strong{font-weight:bolder}code,kbd,samp{font-family:monospace,monospace;font-size:1em}dfn{font-style:italic}mark{background-color:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}audio,video{display:inline-block}audio:not([controls]){display:none;height:0}img{border-style:none}svg:not(:root){overflow:hidden}button,input,optgroup,select,textarea{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0}button,input{overflow:visible}button,select{text-transform:none}button,html [type=button],[type=reset],[type=submit]{-webkit-appearance:button}button::-moz-focus-inner,[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner{border-style:none;padding:0}button:-moz-focusring,[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring{outline:1px dotted ButtonText}fieldset{padding:.35em .75em .625em}legend{box-sizing:border-box;color:inherit;display:table;max-width:100%;padding:0;white-space:normal}progress{display:inline-block;vertical-align:baseline}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}details,menu{display:block}summary{display:list-item}canvas{display:inline-block}template{display:none}[hidden]{display:none}
+
+html { box-sizing: border-box;}
+
+*, *:before, *:after {box-sizing: inherit}
+
+.sr-only { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden;}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-image: url(./assets/asset-1.jpg);
+    background-size: cover;
+    height: 705px;
+}
+
+nav,
+p,
+h3,
+li,
+a {
+    font-family: 'Cabin';
+}
+
+h1,
+h2,
+.tasty {
+    font-family:  'Great Vibes';
+    font-weight: 100;
+}
+
+h1 {
+    margin: 0;
+    font-size: 64px;
+    padding-top: 2.5%;
+    width: 10%;
+}
+
+ul li {
+    list-style: none;
+}
+
+.navbar,
+.nav1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.navbar nav {
+    width: 40%;
+    margin-left: 57%;
+}
+
+.nav1 li {
+    margin: 10% 3% 0 3%;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+a,
+a:visited {
+    text-decoration: none;
+    color: inherit;
+    text-transform: uppercase;
+}
+
+.mobileMenu {
+    display: none;
+    width: 100%;
+    /* cursor: pointer; */
+}
+
+.line {
+    display: block;
+    height: 3px;
+    width: 40px;
+    margin: 10px auto;
+    transition: all 0.5s ease-in-out;
+    background-color: #232323;
+}
+
+h2,
+p,
+.tasty {
+    text-align: center;
+}
+
+.tasty {
+    font-size: 92px;
+}
+
+
+.p1 {
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    font-size: 20px;
+}
+
+.headerP {
+    margin: 15% 0;
+}
+
+.headerPIcon {
+    color: #FDC800;
+    width: 25px;
+    height: 25px;
+    margin: 5%;
+}
+
+.nav2 {
+    position: absolute;
+}
+
+.iconMenu1 {
+    position: relative;
+    bottom: 300px;
+    left: 1190px;
+}
+
+section {
+    background-color: #EAEDF4;
+    padding: 7.5% 0 5%;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+section p {
+    width: 50%;
+    font-size: 18px;
+    letter-spacing: 0.1rem;
+    align-content: center;
+    padding: 2.5% 0 3% 0;
+    margin: 0 25% 0 25%;
+}
+
+.mainAnchor1 {
+    background-color: #FDC800;
+    padding: 1% 1.5%;
+    margin: 0 43% 0 43%;
+}
+
+.nav3 {
+    background-color: #232323;
+    width: 100%;
+    height: 200px;
+    padding: 3% 0 5% 0;
+}
+
+.nav3 ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nav3 li {
+    width: 20%;
+    text-align: center;
+    color: #EAEDF4;
+}
+
+.nav3Icon {
+    color: #EAEDF4;
+    width: 25%;
+    height: 80%;
+}
+
+footer {
+    background-color: #000;
+    color: #9e9e9e;
+    font-size: 12px;
+    padding: 0.5%;
+}
+
+.hide {
+    display: none;
+}
+
+@media (max-width: 450px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .wrapper {
+        max-width: 400px;
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    header {
+        background-image:  url(./assets/asset-1.jpg);
+        background-size: cover;
+        padding-top: 5%;
+    }
+
+    .mobileMenu {
+        display: block;
+    }
+
+    .nav1 {
+        position: fixed;
+        left: -100%;
+        top: -100%;
+        flex-direction: column;
+        background-color: #232323;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav2 {
+        overflow: hidden;
+        position: fixed;
+    }
+
+    .iconMenu1 {
+        position: absolute;
+    }
+
+    .tasty {
+        font-size: 102px;
+        margin: 0;
+    }
+
+    .headerP {
+        margin: 33% 0;
+    }
+
+    section {
+        /* padding: 15%; */
+        height: auto;
+    }
+
+    section p {
+        margin: 2.5% 0;
+        width: 100%;
+        letter-spacing: 0.1rem;
+        line-height: 2rem;
+    }
+
+    .mainAnchor1 {
+        display: inline;
+        margin: 2.5% 30%;
+        padding: 10px 25px;
+    }
+
+    .nav3 {
+        min-height: 400px;
+    }
+
+    .nav3 ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .nav3 li {
+        width: 45%;
+        height: 30%;
+        margin: 5% 30%;
+    }
+
+    footer {
+        padding: 3% 0 3% 0;
+    }
+}
